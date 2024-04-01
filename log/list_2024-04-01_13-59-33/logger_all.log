@@ -1,0 +1,482 @@
+[0.243s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote']
+[0.244s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/ajlin/code/df/src/Dftpav_ExplanatoryNote'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bd09ec08400>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7bd09ebcb310>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7bd09ebcb310>>)
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.765s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extension 'colcon_meta'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extension 'ros'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extensions ['cmake', 'python']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extension 'cmake'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extension 'python'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extensions ['python_setup_py']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote) by extension 'python_setup_py'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extension 'ignore_ament_install'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extensions ['colcon_pkg']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extension 'colcon_pkg'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extensions ['colcon_meta']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extension 'colcon_meta'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extensions ['ros']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extension 'ros'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extensions ['cmake', 'python']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extension 'cmake'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extension 'python'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extensions ['python_setup_py']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/figs) by extension 'python_setup_py'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/log) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/log) by extension 'ignore'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/log) ignored
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extension 'ignore_ament_install'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extensions ['colcon_pkg']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extension 'colcon_pkg'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extensions ['colcon_meta']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extension 'colcon_meta'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extensions ['ros']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extension 'ros'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extensions ['cmake', 'python']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extension 'cmake'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extension 'python'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extensions ['python_setup_py']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src) by extension 'python_setup_py'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extensions ['ignore', 'ignore_ament_install']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extension 'ignore'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extension 'ignore_ament_install'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extensions ['colcon_pkg']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extension 'colcon_pkg'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extensions ['colcon_meta']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extension 'colcon_meta'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extensions ['ros']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extension 'ros'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extensions ['cmake', 'python']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extension 'cmake'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extension 'python'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extensions ['python_setup_py']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan) by extension 'python_setup_py'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extension 'ignore'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extension 'colcon_pkg'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extensions ['ros']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner) by extension 'ros'
+[0.910s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/traj_planner' with type 'ros.catkin' and name 'traj_planner'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extension 'ignore_ament_install'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extensions ['colcon_pkg']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extension 'colcon_pkg'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extensions ['colcon_meta']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extension 'colcon_meta'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extensions ['ros']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extension 'ros'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extensions ['cmake', 'python']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extension 'cmake'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extension 'python'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extensions ['python_setup_py']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils) by extension 'python_setup_py'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extension 'colcon_meta'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extension 'ros'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extensions ['cmake', 'python']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extension 'python'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extensions ['python_setup_py']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extensions ['colcon_pkg']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extension 'colcon_pkg'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extensions ['colcon_meta']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extension 'colcon_meta'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extensions ['ros']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs) by extension 'ros'
+[0.989s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_msgs' with type 'ros.catkin' and name 'decomp_ros_msgs'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils) by extension 'ros'
+[0.999s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/DecompROS/decomp_ros_utils' with type 'ros.catkin' and name 'decomp_ros_utils'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extension 'ignore'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extension 'ignore_ament_install'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extensions ['colcon_pkg']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extension 'colcon_pkg'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extensions ['colcon_meta']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extension 'colcon_meta'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extensions ['ros']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple) by extension 'ros'
+[1.005s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Plan/utils/catkin_simple' with type 'ros.catkin' and name 'catkin_simple'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extensions ['colcon_pkg']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extension 'colcon_pkg'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extensions ['colcon_meta']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extension 'colcon_meta'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extensions ['ros']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extension 'ros'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extensions ['cmake', 'python']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extension 'cmake'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extension 'python'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extensions ['python_setup_py']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim) by extension 'python_setup_py'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extensions ['ignore', 'ignore_ament_install']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extension 'ignore_ament_install'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extensions ['colcon_pkg']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extension 'colcon_pkg'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extensions ['colcon_meta']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extension 'colcon_meta'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extensions ['ros']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extension 'ros'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extensions ['cmake', 'python']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extension 'cmake'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extension 'python'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extensions ['python_setup_py']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app) by extension 'python_setup_py'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extensions ['ignore', 'ignore_ament_install']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extension 'ignore'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extensions ['colcon_meta']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extension 'colcon_meta'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extensions ['ros']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated) by extension 'ros'
+[1.044s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/app/planning_integrated' with type 'ros.catkin' and name 'planning_integrated'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extensions ['colcon_pkg']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extension 'colcon_pkg'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extensions ['colcon_meta']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extension 'colcon_meta'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extensions ['ros']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools) by extension 'ros'
+[1.055s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/aux_tools' with type 'ros.catkin' and name 'aux_tools'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extensions ['ignore', 'ignore_ament_install']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extension 'ignore'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extension 'ignore_ament_install'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extensions ['colcon_pkg']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extension 'colcon_pkg'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extensions ['colcon_meta']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extension 'colcon_meta'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extensions ['ros']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extension 'ros'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extensions ['cmake', 'python']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extension 'cmake'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extension 'python'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extensions ['python_setup_py']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core) by extension 'python_setup_py'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extension 'ignore'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extension 'ignore_ament_install'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extensions ['colcon_pkg']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extension 'colcon_pkg'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extensions ['colcon_meta']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extension 'colcon_meta'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extensions ['ros']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner) by extension 'ros'
+[1.063s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/behavior_planner' with type 'ros.catkin' and name 'behavior_planner'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extension 'ignore'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extension 'ignore_ament_install'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extensions ['colcon_pkg']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extension 'colcon_pkg'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extensions ['colcon_meta']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extension 'colcon_meta'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extensions ['ros']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common) by extension 'ros'
+[1.079s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/common' with type 'ros.catkin' and name 'common'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extension 'ignore'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extension 'ignore_ament_install'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extensions ['colcon_pkg']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extension 'colcon_pkg'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extensions ['colcon_meta']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extension 'colcon_meta'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator) by extension 'ros'
+[1.102s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/forward_simulator' with type 'ros.catkin' and name 'forward_simulator'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extensions ['ignore', 'ignore_ament_install']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extension 'ignore_ament_install'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extensions ['colcon_pkg']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extension 'colcon_pkg'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extensions ['colcon_meta']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extension 'colcon_meta'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extensions ['ros']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor) by extension 'ros'
+[1.126s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/motion_predictor' with type 'ros.catkin' and name 'motion_predictor'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extension 'ignore_ament_install'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extensions ['colcon_pkg']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extension 'colcon_pkg'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extensions ['colcon_meta']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extension 'colcon_meta'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extensions ['ros']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator) by extension 'ros'
+[1.133s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/phy_simulator' with type 'ros.catkin' and name 'phy_simulator'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extension 'ignore_ament_install'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extensions ['colcon_pkg']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extension 'colcon_pkg'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extensions ['colcon_meta']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extension 'colcon_meta'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extensions ['ros']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds) by extension 'ros'
+[1.153s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/playgrounds' with type 'ros.catkin' and name 'playgrounds'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extension 'ignore'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extension 'ignore_ament_install'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extensions ['colcon_pkg']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extension 'colcon_pkg'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extensions ['colcon_meta']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extension 'colcon_meta'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extensions ['ros']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner) by extension 'ros'
+[1.167s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/route_planner' with type 'ros.catkin' and name 'route_planner'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extensions ['ignore', 'ignore_ament_install']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extension 'ignore'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extension 'ignore_ament_install'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extensions ['colcon_pkg']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extension 'colcon_pkg'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extensions ['colcon_meta']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extension 'colcon_meta'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extensions ['ros']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager) by extension 'ros'
+[1.180s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/semantic_map_manager' with type 'ros.catkin' and name 'semantic_map_manager'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extensions ['ignore', 'ignore_ament_install']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extension 'ignore'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extension 'ignore_ament_install'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extensions ['colcon_pkg']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extension 'colcon_pkg'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extensions ['colcon_meta']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extension 'colcon_meta'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extensions ['ros']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model) by extension 'ros'
+[1.189s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_model' with type 'ros.catkin' and name 'vehicle_model'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extension 'ignore'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extension 'ignore_ament_install'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extensions ['colcon_pkg']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extension 'colcon_pkg'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extensions ['colcon_meta']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extension 'colcon_meta'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extensions ['ros']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs) by extension 'ros'
+[1.206s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/core/vehicle_msgs' with type 'ros.catkin' and name 'vehicle_msgs'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extension 'ignore'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extension 'ignore_ament_install'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extensions ['colcon_pkg']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extension 'colcon_pkg'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extensions ['colcon_meta']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extension 'colcon_meta'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extensions ['ros']
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extension 'ros'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extensions ['cmake', 'python']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extension 'cmake'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extension 'python'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extensions ['python_setup_py']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain) by extension 'python_setup_py'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extensions ['ignore', 'ignore_ament_install']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extension 'ignore'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extension 'ignore_ament_install'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extensions ['colcon_pkg']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extension 'colcon_pkg'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extensions ['colcon_meta']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extension 'colcon_meta'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extensions ['ros']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extension 'ros'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extensions ['cmake', 'python']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extension 'cmake'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extension 'python'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extensions ['python_setup_py']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects) by extension 'python_setup_py'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extensions ['ignore', 'ignore_ament_install']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extension 'ignore_ament_install'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extensions ['colcon_pkg']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extension 'colcon_pkg'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extensions ['colcon_meta']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extension 'colcon_meta'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extensions ['ros']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extension 'ros'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extensions ['cmake', 'python']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extension 'cmake'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extension 'python'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extensions ['python_setup_py']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway) by extension 'python_setup_py'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extensions ['ignore', 'ignore_ament_install']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extension 'ignore'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extension 'ignore_ament_install'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extensions ['colcon_pkg']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extension 'colcon_pkg'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extensions ['colcon_meta']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extension 'colcon_meta'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extensions ['ros']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extension 'ros'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extensions ['cmake', 'python']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extension 'cmake'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extension 'python'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extensions ['python_setup_py']
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/highway/geojson) by extension 'python_setup_py'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extensions ['ignore', 'ignore_ament_install']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extension 'ignore_ament_install'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extensions ['colcon_pkg']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extension 'colcon_pkg'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extensions ['colcon_meta']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extension 'colcon_meta'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extensions ['ros']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extension 'ros'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extensions ['cmake', 'python']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extension 'cmake'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extension 'python'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extensions ['python_setup_py']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking) by extension 'python_setup_py'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extensions ['ignore', 'ignore_ament_install']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extension 'ignore_ament_install'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extensions ['colcon_pkg']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extension 'colcon_pkg'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extensions ['colcon_meta']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extension 'colcon_meta'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extensions ['ros']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extension 'ros'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extensions ['cmake', 'python']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extension 'cmake'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extension 'python'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extensions ['python_setup_py']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/parking/geojson) by extension 'python_setup_py'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extension 'ignore_ament_install'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extensions ['colcon_pkg']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extension 'colcon_pkg'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extensions ['colcon_meta']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extension 'colcon_meta'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extensions ['ros']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extension 'ros'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extensions ['cmake', 'python']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extension 'cmake'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extension 'python'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extensions ['python_setup_py']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small) by extension 'python_setup_py'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extensions ['ignore', 'ignore_ament_install']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extension 'ignore'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extension 'ignore_ament_install'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extensions ['colcon_pkg']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extension 'colcon_pkg'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extensions ['colcon_meta']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extension 'colcon_meta'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extensions ['ros']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extension 'ros'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extensions ['cmake', 'python']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extension 'cmake'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extension 'python'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extensions ['python_setup_py']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_small/geojson) by extension 'python_setup_py'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extensions ['ignore', 'ignore_ament_install']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extension 'ignore_ament_install'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extensions ['colcon_pkg']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extension 'colcon_pkg'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extensions ['colcon_meta']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extension 'colcon_meta'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extensions ['ros']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extension 'ros'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extensions ['cmake', 'python']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extension 'cmake'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extension 'python'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extensions ['python_setup_py']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny) by extension 'python_setup_py'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extensions ['ignore', 'ignore_ament_install']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extension 'ignore'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extension 'ignore_ament_install'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extensions ['colcon_pkg']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extension 'colcon_pkg'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extensions ['colcon_meta']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extension 'colcon_meta'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extensions ['ros']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extension 'ros'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extensions ['cmake', 'python']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extension 'cmake'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extension 'python'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extensions ['python_setup_py']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/toolchain/qgis_projects/ring_tiny/geojson) by extension 'python_setup_py'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extensions ['ignore', 'ignore_ament_install']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extension 'ignore'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extension 'ignore_ament_install'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extensions ['colcon_pkg']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extension 'colcon_pkg'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extensions ['colcon_meta']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extension 'colcon_meta'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extensions ['ros']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extension 'ros'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extensions ['cmake', 'python']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extension 'cmake'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extension 'python'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extensions ['python_setup_py']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util) by extension 'python_setup_py'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extension 'ignore'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extension 'ignore_ament_install'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extensions ['colcon_pkg']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extension 'colcon_pkg'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extensions ['colcon_meta']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extension 'colcon_meta'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extensions ['ros']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner) by extension 'ros'
+[1.312s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ai_agent_planner' with type 'ros.catkin' and name 'ai_agent_planner'
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extension 'ignore'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extension 'ignore_ament_install'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extensions ['colcon_pkg']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extension 'colcon_pkg'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extensions ['colcon_meta']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extension 'colcon_meta'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extensions ['ros']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner) by extension 'ros'
+[1.323s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/eudm_planner' with type 'ros.catkin' and name 'eudm_planner'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extension 'ignore'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extension 'ignore_ament_install'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extensions ['colcon_pkg']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extension 'colcon_pkg'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extensions ['colcon_meta']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extension 'colcon_meta'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extensions ['ros']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner) by extension 'ros'
+[1.327s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajlin/code/df/src/Dftpav_ExplanatoryNote/src/Sim/util/ssc_planner' with type 'ros.catkin' and name 'ssc_planner'
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

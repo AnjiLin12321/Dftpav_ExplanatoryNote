@@ -58,7 +58,6 @@
 #define Budget 0.5
 namespace plan_utils
 {
-
   class TrajPlannerServer 
   {
   public:

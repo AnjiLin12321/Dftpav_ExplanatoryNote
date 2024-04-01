@@ -159,7 +159,8 @@ namespace plan_manage
 
   ErrorType TrajPlanner::RunOnceParking(){
     if(!have_parking_target) return kWrongStatus;
-    have_parking_target = false;      
+    have_parking_target = false;     
+    //this！ 
     Eigen::Vector4d parking_end = end_pt;
     is_init = false;
     stamp_ = map_itf_->GetTimeStamp();
@@ -191,6 +192,8 @@ namespace plan_manage
     }
     // static int tri_flag = 0;
     // if(tri_flag) return kWrongStatus;
+
+    //this！
     Eigen::Vector4d start_state;
     start_state << head_state_.vec_position, head_state_.angle, head_state_.velocity; 
     if ((parking_end - start_state).head(2).norm() < 1.0){
@@ -198,7 +201,7 @@ namespace plan_manage
       have_parking_target = false; //hzc
       return kWrongStatus;
     }
-
+    //this！
     double frontendt1 = ros::Time::now().toSec();
     if (getKinoPath(parking_end) != kSuccess){
       LOG(ERROR) << "[PolyTrajManager Parking] fail to get the front-end.\n";

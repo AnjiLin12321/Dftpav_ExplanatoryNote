@@ -70,7 +70,7 @@ int main(int argc, char** argv) {
               traj_config_path.c_str());
     assert(false);
   }
-
+  //this!
   semantic_map_manager::SemanticMapManager semantic_map_manager(
       ego_id, agent_config_path);//store the state information
   semantic_map_manager::RosAdapter smm_ros_adapter(nh, &semantic_map_manager);//connect with ros

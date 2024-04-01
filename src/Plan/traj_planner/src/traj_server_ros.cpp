@@ -36,23 +36,29 @@ namespace plan_utils
   }
   //use this!
   TrajPlannerServer::TrajPlannerServer(ros::NodeHandle nh, double work_rate, int ego_id)
-      : nh_(nh), work_rate_(work_rate), ego_id_(ego_id) 
+      : nh_(nh), work_rate_(work_rate), ego_id_(ego_id) //ego_id 0
   {
     p_input_smm_buff_ = new moodycamel::ReaderWriterQueue<SemanticMapManager>(
         config_.kInputBufferSize);
     // p_smm_vis_   = new semantic_map_manager::Visualizer(nh, ego_id);
     p_traj_vis_  = new TrajVisualizer(nh, ego_id);
 
-    nh.getParam("enable_urban", enable_urban_);
-    nh.param("isparking", isparking,true);
-    p_planner_   = new plan_manage::TrajPlanner(nh, ego_id, enable_urban_);
+    nh.getParam("enable_urban", enable_urban_);  //true
+    nh.param("isparking", isparking,true); //true
+    p_planner_   = new plan_manage::TrajPlanner(nh, ego_id, enable_urban_);  //this！ 构造
 
     parking_sub_ = nh_.subscribe("/move_base_simple/goal", 1, &TrajPlannerServer::ParkingCallback, this);
 
     if(!isparking){
       trajplan = std::bind(&plan_manage::TrajPlanner::RunOnce,p_planner_);
     }
-    else{
+    else{ //use this！
+      /* plan_manage::TrajPlanner *p_planner_;  指针
+       * TrajPlanner的对象p_planner_指针可以绑定到TrajPlanner的成员函数指针上。
+       * std::function<ErrorType()> trajplan;  
+       * 创建了一个 std::function 对象 trajplan，它能够存储并调用一个不接受任何参数且返回 ErrorType 类型值的可调用对象
+       * trajplan等价于TrajPlanner::RunOnceParking()
+       */
       trajplan = std::bind(&plan_manage::TrajPlanner::RunOnceParking,p_planner_);
     }
     
@@ -67,7 +73,7 @@ namespace plan_utils
 
   void TrajPlannerServer::Init(const std::string& config_path) 
   {
-
+    //this 参数读取+a*init+话题发布者定义
     p_planner_->Init(config_path);
     nh_.param("use_sim_state", use_sim_state_, true);
     std::string traj_topic = std::string("/vis/agent_") +
@@ -131,6 +137,7 @@ namespace plan_utils
     if (!is_replan_on_) {
       return;
     }
+    //尝试从 p_input_smm_buff_（可能是一个队列或缓冲区）中取出数据，并将取出的数据赋值给 last_smm_
     while (p_input_smm_buff_->try_dequeue(last_smm_)) {
       is_map_updated_ = true;
     }
