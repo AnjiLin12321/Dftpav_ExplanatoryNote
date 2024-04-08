@@ -37,7 +37,8 @@ namespace path_searching
   int KinoAstar::search(Eigen::Vector4d start_state, Eigen::Vector2d init_ctrl,
                                Eigen::Vector4d end_state,bool use3d)
   {
-    bool isocc = false;  bool initsearch = false;
+    bool isocc = false;  
+    bool initsearch = false;
     TicToc time_profile_tool_;
     time_profile_tool_.tic();
     frontend_map_itf_->CheckIfCollisionUsingPosAndYaw(vp_,start_state.head(3),&isocc);

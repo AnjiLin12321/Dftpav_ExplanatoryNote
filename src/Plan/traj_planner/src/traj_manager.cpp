@@ -193,7 +193,7 @@ namespace plan_manage
     // static int tri_flag = 0;
     // if(tri_flag) return kWrongStatus;
 
-    //this！
+    //this！ check if arrive
     Eigen::Vector4d start_state;
     start_state << head_state_.vec_position, head_state_.angle, head_state_.velocity; 
     if ((parking_end - start_state).head(2).norm() < 1.0){
@@ -201,7 +201,7 @@ namespace plan_manage
       have_parking_target = false; //hzc
       return kWrongStatus;
     }
-    //this！
+    //this！get initial trajectory(hybird A*)
     double frontendt1 = ros::Time::now().toSec();
     if (getKinoPath(parking_end) != kSuccess){
       LOG(ERROR) << "[PolyTrajManager Parking] fail to get the front-end.\n";
@@ -212,7 +212,7 @@ namespace plan_manage
 
     // tri_flag =1;
     std::cout<<"traj segs num: "<<kino_trajs_.size()<<"\n";
-    
+    // optimization
     if (RunMINCOParking()!= kSuccess)
     {
       LOG(ERROR) << "[PolyTrajManager Parking] fail to optimize the trajectories.\n";
