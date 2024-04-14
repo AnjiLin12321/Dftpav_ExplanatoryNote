@@ -18,7 +18,7 @@
 #include "vehicle_msgs/encoder.h"
 
 #include "common/basics/basics.h"
-#include "common/basics/semantics.h"
+#include "common/basics/semantics.h"  //include  "common/state/state.h"
 
 #include "phy_simulator/phy_simulator.h"
 

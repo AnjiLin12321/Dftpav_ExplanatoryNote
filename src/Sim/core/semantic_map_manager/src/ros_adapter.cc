@@ -42,7 +42,7 @@ void RosAdapter::DyObsCallback(const visualization_msgs::MarkerArray& msg){
       state.vec_position[0] = point.x;
       state.vec_position[1] = point.y;
       state.angle = point.z;
-      state.curvature = 1.0/radiuss[idx];
+      state.curvature = 1.0/radiu ss[idx];
       state.velocity = desiredVs[idx];
       state.acceleration = 0.0; 
       state.time_stamp = cur_time + kdx * deltatime;
